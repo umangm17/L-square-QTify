@@ -1,0 +1,24 @@
+.searchcss{
+        display: flex;
+        align-items: center;
+        height: 48px;
+    
+}
+.search{
+    width: 502px;
+    height:20%;
+    border-radius: 8px;
+    border: 1px solid var(--color-black);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 14px 20px;
+
+}
+.iconbutton{
+    border-radius: 0px 8px 8px 0px;
+      border-left: none;
+      border: 1px solid var(--color-black);
+      cursor: pointer;
+      height: 82%;
+      padding: 14px 20px;
+}
