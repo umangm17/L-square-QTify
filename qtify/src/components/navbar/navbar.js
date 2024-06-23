@@ -1,8 +1,8 @@
 import React from 'react';
 // import Style from "./navbar.css"
-import styles from "./navbar.module.css"
+import styles from "./navbar.module.css";
 import Logo from "../../asset/assets/logo.png";
-import { Button }  from "../button/childButton"
+import { Button }  from "../button/childButton";
 import { SearchBar } from '../../components/searchbar/searchbar';
 
 

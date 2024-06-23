@@ -1,0 +1,29 @@
+.card{
+    width: 159px;
+    height: 232px;
+    color: var(--css-white);
+  
+}
+
+
+.cardBody{
+ background-color: var(--css-white);
+  height: 205px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cardImage{
+    height: 170px;
+    width: 100%;
+}
+
+
+.cardButton{
+ 
+}
+.cardText{
+    margin-top: 6px;
+    font-size: 14px;
+
+}
