@@ -2,9 +2,11 @@ import React from 'react'
 import { useState,useEffect } from 'react';
 import CardGridSection from "../CardGrid/CardGrid"
 import styles from "./CardSection.module.css";
+import {CardCarousel} from "../carousel/cardcarousel"
+import { Filter } from '../filters/filters';
 
 
-function CardSection({name,songsData}){
+function CardSection({name,songsData,showFilters}){
     const [isCollapsed, setIsCollapsed] = useState(true);
   const [filteredSongsData, setFilteredSongsData] = useState([]);
 
@@ -25,14 +27,14 @@ function CardSection({name,songsData}){
         </p>
       </div>
       {showFilters ? (
-        <Filters
+        <Filter
           setFilteredSongsData={setFilteredSongsData}
           songsData={songsData}
         />
       ) : null}
-      <div className="card-container">
+      <div className={styles.cardcontainer}>
         {isCollapsed ? (
-          <CardCarouselSection name={name} songsData={filteredSongsData} />
+          <CardCarousel name={name} songsData={filteredSongsData} />
         ) : (
           <>
             <CardGridSection songsData={filteredSongsData} />

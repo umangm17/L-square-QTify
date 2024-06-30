@@ -36,9 +36,9 @@ function App() {
     
       <Navbar/>
       <Hero  text1="100 Thousand Songs, ad-free" text2="Over thousands podcast episodes"/>
-      <CardSection name="TopAlbum" songsData={topSongsData}/>
-      <CardSection name ="NewAlbum" songsData={newSongsData}/>
-      <CardSection name ="songs" songsData={songsData}/>
+      <CardSection name="Top Albums" songsData={topSongsData}/>
+      <CardSection name ="New Albums" songsData={newSongsData}/>
+      <CardSection name ="Songs" songsData={songsData}/>
       
     </div>
    

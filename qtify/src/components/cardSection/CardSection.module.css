@@ -2,7 +2,7 @@
     margin: 20px;
   }
   
-  .text-container {
+  .textcontainer {
     color: var(--css-white);
     font-size: 20px;
     font-weight: 600;
@@ -10,11 +10,11 @@
     justify-content: space-between;
   }
   
-  .collapse-btn {
+  .collapsebutton {
     color: var(--css-primary);
     cursor: pointer;
   }
   
-  .card-container {
+  .cardcontainer {
     margin: 20px 5px;
   }
