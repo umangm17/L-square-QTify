@@ -1,6 +1,6 @@
 import React from 'react';
 import {CardComponent} from "../container2/container";
-import styles from "./CardGrid.module.css";
+import styles from "./CardGrid.module.css"
 
 const CardGridSection=({songsData})=>{
     return (
