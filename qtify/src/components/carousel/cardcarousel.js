@@ -21,7 +21,7 @@ function CardCarousel({ name,songsData}){
           prevEl: `#${name.split(' ').join('')}-left`,
         }}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="myswiper"
       >
         {songsData.map((song) => (
           <SwiperSlide key={song.id}>

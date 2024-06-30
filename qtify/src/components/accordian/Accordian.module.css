@@ -1,0 +1,50 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .faqtext {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--color-white);
+  }
+  
+  .accordioncontainer {
+    min-width: 1135px;
+  }
+  
+  .accordion {
+    border-radius: 10px;
+    margin: 20px 0 ;
+  }
+  
+  .accordionsummary {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: 1px var(--color-white) solid ;
+    border-radius: 10px 
+  }
+  
+  .accordionsummarytext {
+    font-weight: 500 ;
+    line-height: 30px ;
+    letter-spacing: 0px ;
+    text-align: left;
+    font-size: 20px ;
+    padding: 0 10px;
+  }
+  
+  .accordiondetailstext {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+  }

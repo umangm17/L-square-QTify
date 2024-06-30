@@ -3,7 +3,7 @@ import { useState,useEffect } from 'react';
 import CardGridSection from "../CardGrid/CardGrid"
 import styles from "./CardSection.module.css";
 import {CardCarousel} from "../carousel/cardcarousel"
-import { Filter } from '../filters/filters';
+import  Filter  from '../filters/filters';
 
 
 function CardSection({name,songsData,showFilters}){

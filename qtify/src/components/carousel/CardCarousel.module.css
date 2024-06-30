@@ -1,0 +1,22 @@
+.swiper {
+    position: relative;
+    padding: 0 8px;
+  }
+  
+  .sliderbutton {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-90%);
+    cursor: pointer;
+  }
+  
+  .leftbutton {
+    z-index: 10;
+    left: -5px;
+  }
+  .rightbutton {
+    right: 10px;
+  }

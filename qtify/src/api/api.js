@@ -47,10 +47,10 @@ const getSongData=async ()=>{
 const getGenreData=async ()=>{
     try {
 
-    const songs =await getData(
+    const genres =await getData(
         'https://qtify-backend-labs.crio.do/genres'
     )
-    return songs
+    return genres.data
     }
     catch(error){
         console.log(error)
